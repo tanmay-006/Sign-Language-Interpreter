@@ -6,65 +6,135 @@ SignSync is an innovative application that bridges communication gaps between de
 
 Our system leverages a sophisticated neural network model trained on thousands of sign language examples to recognize hand gestures, facial expressions, and body movements with high accuracy. The application primarily supports American Sign Language (ASL) with ongoing development to incorporate other sign language systems worldwide.
 
-Key components of SignSync include:
-- Advanced real-time video processing with OpenCV for precise gesture detection
-- Custom-trained TensorFlow models optimized for mobile devices
-- Intuitive Flutter UI/UX design ensuring accessibility across platforms
-- Firebase backend for secure user authentication and progress tracking
-- Interactive learning modules for users to improve their sign language skills
+## Features
 
-Beyond being just a translation tool, SignSync serves as a comprehensive platform for sign language education and advocacy, promoting greater inclusivity in everyday communication and helping organizations become more accessible to the deaf and hard-of-hearing community.
+- **Real-time Translation**
+  - Sign language to text/speech conversion
+  - Text/speech to sign language visualization
+  - Support for American Sign Language (ASL)
 
-## Summary
+- **Interactive Learning**
+  - Guided tutorials with 3D avatar demonstrations
+  - Progress tracking and performance analytics
+  - Customizable learning paths
+  - Practice exercises with feedback
 
-SignSync is a mobile application that uses artificial intelligence to translate sign language into text/speech and vice versa in real-time. Built with Flutter, TensorFlow, and OpenCV, it offers an intuitive interface for both deaf and hearing users. The app features real-time translation, interactive learning modules, and cross-platform compatibility. SignSync aims to remove communication barriers, promote inclusivity, and empower deaf individuals to interact more seamlessly in various social and professional environments.
+- **Accessibility**
+  - Offline mode for essential translations
+  - Dark/Light theme support
+  - Multi-platform compatibility
+  - Intuitive user interface
+
+- **Community Features**
+  - Report issues and feedback system
+  - User profile management
+  - Progress tracking
+  - Firebase authentication
+
+## Tech Stack
+
+- **Frontend**: Flutter/Dart
+- **Backend**: Firebase
+- **ML/AI**: TensorFlow, MediaPipe
+- **3D Modeling**: Three.js
+- **Computer Vision**: OpenCV
+- **Authentication**: Firebase Auth
+- **Storage**: Cloud Firestore
+- **Analytics**: Firebase Analytics
+
+## Prerequisites
+
+- Flutter SDK (3.0 or higher)
+- Dart SDK (2.17 or higher)
+- Android Studio / VS Code
+- Git
+- Python 3.8+ (for ML model training)
+- Firebase project setup
 
 ## Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/tanmay-006/sign_language.git
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/tanmay-006/Sign-Language-Interpreter.git
+   cd Sign-Language-Interpreter
+   ```
 
-# Navigate to the project directory
-cd sign_language
+2. **Install Dependencies**
+   ```bash
+   flutter pub get
+   pip install -r requirements.txt
+   ```
 
-# Install dependencies
-pip install -r requirements.txt
+3. **Firebase Setup**
+   - Create a new Firebase project
+   - Add Android/iOS apps in Firebase console
+   - Download and place google-services.json in android/app/
+   - Enable Authentication and Firestore
+
+4. **Environment Setup**
+   - Create a .env file in the root directory
+   - Add required API keys and configurations
+
+5. **Run the App**
+   ```bash
+   flutter run
+   ```
+
+## Project Structure
+
+```
+lib/
+├── main.dart                 # App entry point
+├── src/
+    ├── features/            # Feature modules
+    ├── common/             # Shared components
+    ├── utils/              # Utility functions
+    └── config/             # App configuration
 ```
 
-## Usage
+## Usage Guidelines
 
-The application allows users to:
-- Translate sign language gestures to text in real-time
-- Convert spoken or typed language into sign language demonstrations
-- Learn sign language through interactive tutorials with feedback
-- Build personalized sign language vocabulary lists
-- Connect with the deaf community through integrated features
+1. **Sign Language Translation**
+   - Position your device camera facing you
+   - Ensure good lighting conditions
+   - Perform sign language gestures clearly
+   - View real-time translation results
 
-## Features
+2. **Learning Mode**
+   - Select lessons from the learning module
+   - Follow 3D avatar demonstrations
+   - Practice with interactive exercises
+   - Track your progress
 
-- Real-time sign language detection and translation
-- Text-to-sign language visualization with 3D avatar
-- User-friendly interface built with Flutter
-- Cross-platform support (Android, iOS)
-- AI-powered gesture recognition with continuous learning
-- Interactive learning modules with progress tracking
-- Offline mode for essential translations
-
-## Technologies Used
-
-- Python
-- Flutter/Dart
-- TensorFlow
-- OpenCV
-- Firebase
-- MediaPipe for hand tracking
-- Cloud ML services
+3. **Profile Management**
+   - Create/login to your account
+   - Track learning progress
+   - Customize app settings
+   - Report issues or provide feedback
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions to SignSync! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Support
+
+For support, please:
+- Report issues through our in-app feedback system
+- Open issues on GitHub
+- Contact our support team at [support email]
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- MediaPipe team for hand tracking solutions
+- Flutter team for the amazing framework
+- Contributors and supporters of the project
