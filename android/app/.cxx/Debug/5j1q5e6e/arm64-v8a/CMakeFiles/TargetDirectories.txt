@@ -1,0 +1,2 @@
+E:/Hackathon/Sign_language_2/Sign_language_2/android/app/.cxx/Debug/5j1q5e6e/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/Hackathon/Sign_language_2/Sign_language_2/android/app/.cxx/Debug/5j1q5e6e/arm64-v8a/CMakeFiles/rebuild_cache.dir
