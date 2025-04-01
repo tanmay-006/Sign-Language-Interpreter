@@ -1,8 +1,8 @@
-# SignSync: Sign Language Interpreter
+# SignifyMe : Sign Language Interpreter
 
 ## Description
 
-SignSync is an innovative application that bridges communication gaps between deaf and hearing communities using cutting-edge AI technology. This Flutter-based mobile solution captures sign language gestures through the device camera and translates them into text or speech in real-time, while also providing the reverse functionality.
+SignifyMe  is an innovative application that bridges communication gaps between deaf and hearing communities using cutting-edge AI technology. This Flutter-based mobile solution captures sign language gestures through the device camera and translates them into text or speech in real-time, while also providing the reverse functionality.
 
 Our system leverages a sophisticated neural network model trained on thousands of sign language examples to recognize hand gestures, facial expressions, and body movements with high accuracy. The application primarily supports American Sign Language (ASL) with ongoing development to incorporate other sign language systems worldwide.
 
@@ -114,7 +114,7 @@ lib/
 
 ## Contributing
 
-We welcome contributions to SignSync! Please follow these steps:
+We welcome contributions to SignifyMe ! Please follow these steps:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
